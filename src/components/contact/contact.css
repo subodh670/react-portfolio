@@ -1,0 +1,124 @@
+.contact{
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(3, 62, 151);
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:70%;
+    width: 1400px;
+    margin: auto;
+}
+.box-contact{
+    max-width: 40%;
+    width: 400px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-dm{
+    max-width: 40%;
+    width: 400px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+.submit-form{
+    display: flex;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    margin-top: 10px;
+}
+.email-me,.messenger,.whatsapp{
+    background: #2b2b69;
+    min-height: 120px;
+    max-width:100%;
+    width: 200px;
+    margin:auto;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+/* .full-name{
+    max-width: 100%;
+    width: 500px;
+    min-height: 50px;
+    border: 1px solid rgb(138, 140, 248);
+    border-radius: 5px;
+    background: rgb(138, 140, 248,0);
+    margin-bottom: 0px;
+} */
+.full-first--name,.full-first--email{
+    max-width: 100%;
+    width: 500px;
+    min-height: 50px;
+    border: 1px solid rgb(138, 140, 248);
+    border-radius: 5px;
+    background: rgb(138, 140, 248,0);
+    color: white;
+    padding: 10px;
+    
+}
+.full-name,.email,.message{
+    max-width: 100%;
+    width: 500px;
+    min-height: 50px;
+    /* border: 1px solid rgb(138, 140, 248); */
+    border-radius: 5px;
+    background: rgb(138, 140, 248,0);
+    
+}
+.full-first--message{
+    max-width: 100%;
+    width: 500px;
+    min-height: 110px;
+    border: 1px solid rgb(138, 140, 248);
+    border-radius: 5px;
+    background: rgb(138, 140, 248,0);
+    color: white;
+    padding: 10px;
+}
+.message{
+    min-height: 120px;
+}
+.button-submit{
+    margin-top:0;
+}
+.button-submit .submit{
+    padding: 10px 20px;
+    /* width: 10px; */
+    border-radius: 25px;
+    background: white;
+}
+.submit:hover{
+    background-color: gray;
+}
+.button-submit{
+    max-width: 55px;
+    min-height: 10px;
+}
+
+.email-me,.messenger,.whatsapp{
+    padding: 15px;
+}
+.email-me p,.messenger p,.whatsapp p{
+    font-size: 10px;
+}
+.email-me a, .messenger a,.whatsapp a{
+    font-size: 10px;
+    color: rgb(93, 9, 248);
+    text-decoration: none;
+}

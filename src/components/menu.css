@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+.menu{
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+    margin: auto;
+    /* display: none; */
+    z-index: 99999;
+}
+.container-menu{
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 60px;
+    background-color:white;
+    border-radius: 25px;
+    transition: 0.5s;
+    
+} 
+.container-menu:hover{
+    background: RGB(15, 68, 148,0.4);
+    border: 1px solid white;
+}
+.menu_link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    background: black;
+    border-radius: 25px;
+    cursor: pointer;
+}  
+.home-but{
+    font-size: 20px;
+}
+.container-menu a:hover{
+    background-color: gray;
+    color: black;
+}

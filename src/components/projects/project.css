@@ -1,0 +1,77 @@
+.projects{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: #1d4a8f;
+}
+.projects{
+    text-align: center;
+    padding: 20px;
+}
+.projects p{
+    font-size: 14px;
+    line-height: 40px;
+}
+.article-card{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 88%;
+   min-height: 80vh;
+   
+   margin: auto; 
+   /* background-color: blue; */
+}
+.card{
+    margin-bottom: 140px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   max-width: 300px;
+   min-height: 300px;
+   background-color: #2B2B69;
+   border-radius: 25px;
+   transition: 0.5s;
+}
+.card:hover{
+   background-color: RGB(43, 43, 105,0);
+   border: 1px solid #55557e;
+}
+.port{
+    border-radius: 25px;
+    padding-top: 25px;
+}
+.port img{
+    width: 80%;
+    margin: auto;
+    height: 70%;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.port img:hover{
+    width:85%;
+    height: 71%;
+}
+.link1{
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    padding:6px 10px;
+    border: 1px solid #55557e;
+    background-color: rgb(255,255,255,0);
+    margin-right: 50px;
+    transition: 0.5s;
+}
+.btns-github{
+    padding-left: 50px;;
+}
+.link1:hover{
+    background: white;
+    border: 0px solid white;
+}
+.demo{
+    background: RGB(72, 173, 234);
+    border: 0px;
+}

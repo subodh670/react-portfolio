@@ -1,0 +1,50 @@
+.footer{
+    min-height: 40vh;
+    max-width: 100%;
+    background: rgb(76, 179, 246);
+    padding-top: 30px;
+    color: white;
+
+}
+.info-foot{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+    max-width: 60%;
+    margin: 0 auto;
+    min-height: 30vh;
+    /* background: blue;    */
+}
+.info-foot h1{
+   margin-top: 20px; 
+   margin-bottom: 0;
+}
+.social-icons{
+    min-height: 100px;
+}
+h1{
+    color: black;
+}
+.fb,.lk,.tw{
+    margin-right:15px;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.reserve{
+    padding: 0;
+    color: black;
+    font-size: 12px;
+}
+.up-scroll{
+    margin-bottom: 70px;
+    color: black;
+    font-size: 25px;
+}
+.up-scroll a{
+    text-decoration: none;
+    color: black;
+}
+
